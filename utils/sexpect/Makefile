@@ -2,12 +2,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=sexpect
-PKG_VERSION:=2.3.14
+PKG_VERSION:=2.3.15
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/clarkwang/sexpect/tar.gz/v$(PKG_VERSION)?
-PKG_HASH:=f6801c8b979d56eec54aedd7ede06e2342f382cee291beea88b52869186c557c
+PKG_HASH:=44f5711aa99f3ccf9c4b0edfcd9a7d25fa64b442574624ce451713d1532c1a7e
 
 PKG_MAINTAINER:=Clark Wang <dearvoid@gmail.com>
 PKG_LICENSE:=GPL-3.0-only
